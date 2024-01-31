@@ -3,7 +3,7 @@ const router = express.Router();
 
 // colocar las rutas aquí
 router.get('/', (req, res) => {
-    res.send("Home-Bienvenido a mi portafolio");
+    res.render("home");
 });
 
 router.get('/about-me', (req, res) => {
